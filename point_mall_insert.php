@@ -74,7 +74,7 @@
 		$copied_file_name = "";
 	}
 
-	$con = mysqli_connect("sample.czyc2ammdyra.us-east-1.rds.amazonaws.com", "user", "1q2w3e4r", "goodpang");
+	$con = mysqli_connect("sample1.czyc2ammdyra.us-east-1.rds.amazonaws.com", "als971023", "1q2w3e4rqQ!", "goodpang");
 
   $sql = "insert into point_mall(product_name, point,  file_name, file_type, file_copied) ";
 	$sql .= "values('$product_name', '$point', '$upfile_name', '$upfile_type', '$copied_file_name')";

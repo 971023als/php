@@ -3,7 +3,7 @@
     $num   = $_GET["num"];
     $page   = $_GET["page"];
 
-    $con = mysqli_connect("sample.czyc2ammdyra.us-east-1.rds.amazonaws.com", "user", "1q2w3e4r", "sample");
+    $con = mysqli_connect("sample1.czyc2ammdyra.us-east-1.rds.amazonaws.com", "als971023", "1q2w3e4rqQ!", "sample");
     $sql = "select * from product_my where num = $num";
     $result = mysqli_query($con, $sql);
     $row = mysqli_fetch_array($result);

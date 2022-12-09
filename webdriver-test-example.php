@@ -23,7 +23,7 @@ limitations under the License.
 require_once "phpwebdriver/WebDriver.php";
 require_once("phpwebdriver/LocatorStrategy.php");
 
-$webdriver = new WebDriver("sample.czyc2ammdyra.us-east-1.rds.amazonaws.com", "4444");
+$webdriver = new WebDriver("sample1.czyc2ammdyra.us-east-1.rds.amazonaws.com", "4444");
 $webdriver->connect("firefox");                            
 $webdriver->get("http://google.com");
 $element = $webdriver->findElementBy(LocatorStrategy::name, "q");

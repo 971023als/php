@@ -28,7 +28,7 @@ else {?>
 		else
 			$page = 1;
 
-		$con = mysqli_connect("sample.czyc2ammdyra.us-east-1.rds.amazonaws.com", "user", "1q2w3e4r", "goodpang");
+		$con = mysqli_connect("sample1.czyc2ammdyra.us-east-1.rds.amazonaws.com", "als971023", "1q2w3e4rqQ!", "goodpang");
 		$sql = "select * from point_mall where product_name like '%$search%' order by num desc";
 		$result = mysqli_query($con, $sql);
 		$total_record = mysqli_num_rows($result);
